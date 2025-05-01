@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 # give input and classification of pass fail
 X = np.array([[100],[63],[40],[85]])
 y = np.array([1,0,1,0])
-X_new = np.array([150])
+
 
 # firstly we train the model via logistic regression 
 model = LogisticRegression()
